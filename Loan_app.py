@@ -29,7 +29,7 @@ def user_info():
         app_inc = st.number_input('Please enter your annual income')
         coapp_inc = st.number_input('Please enter your coapplicant annual income')
         loan_amt = st.number_input('Please enter the amount of loan you want to obtain')
-        term = st.text_input('Please enter your term',10,480,36)
+        term = st.number_input('Please enter your term',10,480,36)
         cred_hist = st.selectbox('Do you have a credit history', (['Yes','No']))
         
     area = st.selectbox('Which type of area do you live in',(['Urban','Semiurban','Rural']))
